@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Mark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="m-5">
+
+<div id="form" class=" w-50  h-75 mx-auto  p-5 " >
+<h2 class="text-center">Smart Login System</h2> 
+<input id="signName" type="text" class="form-control d-none p-2 my-4" placeholder="Enter your Name">
+<small id="errorName" class="ps-3 d-none text-white">user name must start with capital letter and not less than 3 char</small>
+<small id="errorNameUsed" class="ps-3 d-none text-white">user name is used please enter another user name</small>
+<input id="signEmail" type="email" class="form-control p-2 my-4" placeholder="Enter your Email">
+<small id="errorEmail" class="ps-3 d-none text-white">email must write as abc@gmail.com</small>
+<small id="errorMailUsed" class="ps-3 d-none text-white">user email is used please enter another user name</small>
+
+<input id="signPassword" type="password" class="form-control p-2 my-4" placeholder="Enter your Password">
+<small id="errorPassword" class="ps-3 d-none text-white">password must have at least 6 number and have capital and small letter </small>
+<button id="signUpbtn" class="btn text-capitalize btn-outline-info w-25  mx-auto p-2 my-4 d-none"  >sign up</button>
+<button id="signInbtn" class="btn text-capitalize btn-outline-info w-25  p-2 mx-auto my-4 d-block" >sign in</button>
+<p id="paraup" class="my-4 text-center text-white d-block">Don’t have an account? <a id="signUp" href="#" class="text-white" onclick="signupClick()" >Sign up</a></p>
+<p id="parain" class="my-4 text-center text-white d-none ">You have an account? <a id="signIn" href="#" class="text-white" onclick="signinClick()">Sign In</a></p>
+<p id="paraError" class="my-4 text-center text-white d-none ">You have an account? </p>
+<p id="check" class="my-4 text-center text-white d-none "> please check the Email and Password</p>
+</div>
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+
+
+</body>
+</html>

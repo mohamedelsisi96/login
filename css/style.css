@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+background: #24353f;
+font-family: 'Titillium Web', sans-serif;}
+html{
+  font-size: 16px;
+}
+#form{
+  box-shadow: 2px -2px 16px 4px rgba(0,0,0,.7);
+}
+h2{
+  color:#17a2b8;
+}
+input{
+  background-color: none !important; 
+}
+input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#welcomnav{
+  box-shadow: 0px 8px 5px -2px rgba(0,0,0,0.6);
+
+}
+.h-80{
+  height: 80%; 
+}
+.h-20{
+  height: 20%; 
+}
+.h100{
+  height: 100%; 
+}
+#welcom{
+  height: 100%;
+}
+#welcomeName{
+  box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.6);
+  color: #17a2b8;
+}
